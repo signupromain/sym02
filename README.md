@@ -39,4 +39,10 @@ php bin/console server:run
 >string
 >150
 
+### prepare SQL to migrations folder in MySQL
 
+php bin/console make:migration
+
+###real migrationy
+
+php bin/console doctrine:migrations:migrate
