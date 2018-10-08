@@ -20,3 +20,23 @@ php bin/console server:run
 ### create DB 
 
 1)php bin/console doctrine:database:create
+
+### create an entity, such as table in MySql
+
+1)php bin/console make:entity 
+> Article
+> titre
+>?
+>string
+>no
+>description
+>text
+>no
+>temps
+>datetime
+>y
+>auteur
+>string
+>150
+
+
