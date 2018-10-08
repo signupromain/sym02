@@ -39,10 +39,19 @@ php bin/console server:run
 >string
 >150
 
-### prepare SQL to migrations folder in MySQL
+#### prepare SQL to migrations folder in MySQL
 
 php bin/console make:migration
 
-###real migrationy
-
+#### real migration
 php bin/console doctrine:migrations:migrate
+
+#### save DB in config folder
+datas/base01.sql
+
+#### for sql query in console
+php bin/console doctrine:query:sql "SELECT * FROM article"
+
+#### create controller
+php bin/console make:controller
+>AccueilController
